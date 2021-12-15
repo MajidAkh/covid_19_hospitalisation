@@ -1,4 +1,4 @@
-# covid_19_hospitalisation
+# Modélisation de la relation entre tests positifs et hospitalisation.
 Modélisation des hospitalisations causées par le COVID 19 en Angleterre. 
 
 ### Données
