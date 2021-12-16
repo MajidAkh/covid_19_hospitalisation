@@ -11,10 +11,10 @@ De même, puisque les premières doses ont été administrées fin décembre 202
 où aucun vaccin n'avaient été administrés.
 
 
-![](covid_5.png)
+![](graphics/covid_5.png)
 
 
-![](covid_6.png)
+![](graphics/covid_6.png)
 
 ### Modèle
 
@@ -35,7 +35,7 @@ Une distribution binomiale négative décrit le nombre d'essaies de Bernoulli r�
 
 Une fois que nous pouvons prédire le nombre d'admissions à l'hôpital et quand elles se produisent, il nous suffit de fournir au modèle le nombre de tests positifs chaque jour et le modèle produira une prédiction du nombre d'dmissions à l'hôpital chaque jour. Ceci peut ensuite comparé aux données pour estimes les valeurs de ψ,p et k.
 
-![](covid_2.png)
+![](graphics/covid_2.png)
 
 
 ### Inférence bayésienne
@@ -66,7 +66,7 @@ Tout d'abord, nous pouvons examiner les échantillons postérieurs pour en savoi
 
 Pour ppp et kkk, on voit que la plupart des échantillons ont tendance à privilégier les faibles ppp, meugler kkkmodèle décrit ci-dessus. Comme indiqué précédemment, il ne s'agit pas nécessairement d'un modèle réaliste de l'évolution d'une infection, mais plutôt d'un moyen de comprendre l'incertitude entourant le moment où un patient entre à l'hôpital. Ce qui est important, c'est qu'il existe une variabilité dans le moment où nous nous attendons à ce que des tests positifs un jour donné conduisent à des hospitalisations ultérieures.
 
-![](covid_3.png)
+![](graphics/covid_3.png)
 
 ### Prédictions à posteriori.
 
@@ -74,14 +74,14 @@ Le modèle est capable de capturer la dynamique globale de la vague de l'automne
 
 Fait intéressant, le modèle a du mal à capturer le moment de la diminution à la fin du deuxième verrouillage, où les données réelles s'éloignent de l'intervalle de 99% sur les échantillons postérieurs. L'une des raisons pour lesquelles cela pourrait se produire est que pendant le deuxième verrouillage, les écoles sont restées en session, tandis que la plupart des autres secteurs non essentiels de l'économie ont été contraints de fermer. Cela signifie que les jeunes enfants ont probablement vu leur exposition au COVID diminuer moins fortement que la plupart des adultes (dont beaucoup restaient simplement à la maison et n'allaient pas travailler). Cela a probablement changé les données démographiques sous-jacentes de la population testée positive pour fausser les plus jeunes. Nous nous attendons à moins d'hospitalisations dans une population plus jeune, ce qui pourrait expliquer la baisse plus rapide des admissions fin novembre 2020 dans les données réelles par rapport aux simulations.Cela semble être une caractéristique cohérente de tous les modèles ajustés aux données, ce qui suggère qu'il s'agit d'un changement dans les données plutôt que d'une lacune du modèle.
 
-![](covid_1.png)
+![](graphics/covid_1.png)
 
 ### Prédire la vague du printemps 2021
 
 Comme nous pouvons le voir, le modèle prédit beaucoup plus d'hospitalisations (d'un facteur d'environ 4 à 5) que ce qui est observé dans les données, ce qui donne du crédit à l'affirmation selon laquelle le lien entre les infections et les hospitalisations s'était affaibli. De plus, l'incertitude dans la prédiction est beaucoup plus petite que les différences observées, ce qui suggère que cela devrait être dû à un coup de chance extrêmement rare s'il n'y avait eu aucun changement dans la population sous-jacente exposée au COVID. A noter également que les fluctuations du nombre d'hospitalisations prévues à l'été 2021 sont assez importantes (environ une différence de 1000 entre les estimations les plus basses et les plus élevées).Cela suggère que malgré des mois de données sur les infections et les hospitalisations, il existe encore une incertitude considérable quant à la compréhension des soins hospitaliers dont une population exposée au COVID aura besoin. Cela devrait souligner la nécessité d'un examen attentif des hypothèses de modélisation qui sont faites dans toute prévision de l'effet d'une maladie infectieuse émergente et incertaine sur les membres vulnérables d'une population.
 
 
-![](covid_4.png)
+![](graphics/covid_4.png)
 
 
 ### Discussion
