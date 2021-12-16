@@ -9,7 +9,8 @@ Parce que les tests n'étaient pas toujours cohérents au début de la pandémie
 
 De même, puisque les premières doses ont été administrées fin décembre 2020 en Angleterre, nous avons coupé notre période d'analyse au 31 décembre 2020, afin d'être certain que nous adaptons le modèle à une période 
 où aucun vaccin n'avaient été administrés.
-
+![](covid_5.png)
+![](covid_6.png)
 
 ### Modèle
 
